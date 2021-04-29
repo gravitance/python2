@@ -7,7 +7,9 @@ python 2 exercises
 
 02 : conditionals
 - completed:
-  - none
+  - ex053
+  - ex057
+  - ex060
 
 03 : loops
 - completed:
@@ -15,4 +17,5 @@ python 2 exercises
 
 04 : functions
 - completed:
-  - none
+  - ex100
+  - ex103
