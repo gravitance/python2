@@ -1,4 +1,5 @@
 '''
+
 EX 60 : ROULETTE PAYOUTS
 
 A roulette wheel has 38 spaces on it. Of these spaces, 18 are black, 18 are red, and two
@@ -31,28 +32,28 @@ import random
 green = [0, 37]
 red = [1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36]
 
-simulateSpin = random.randint(0, 37)
+simulate_spin = random.randint(0, 37)
 
-if simulateSpin in green:
-    if simulateSpin == 37:
-        simulateSpin = '00'
-    print("The spin resulted in", simulateSpin, "...")
-    print("Pay", simulateSpin)
+if simulate_spin in green:
+    if simulate_spin == 37:
+        simulate_spin = '00'
+    print("The spin resulted in", simulate_spin, "...")
+    print("Pay", simulate_spin)
 
 else:
-    print("The spin resulted in", simulateSpin, "...")
-    print("Pay", simulateSpin)
-    if simulateSpin in red:
+    print("The spin resulted in", simulate_spin, "...")
+    print("Pay", simulate_spin)
+    if simulate_spin in red:
         print("Pay Red")
     else:
         print("Pay Black")
     
-    if (simulateSpin % 2 == 0):
+    if (simulate_spin % 2 == 0):
         print("Pay Even")
     else:
         print("Pay Odd")
     
-    if (simulateSpin < 19):
+    if (simulate_spin < 19):
         print("Pay 1 to 18")
     else:
         print("Pay 19 to 36")

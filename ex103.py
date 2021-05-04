@@ -29,16 +29,16 @@ def leap(year):                     # from exercise 57
 def daysInMonth(month, year):       # from exercise 100
 
     days = 0
-    days30 = [4,6,9,11]
+    days_30 = [4,6,9,11]
 
     if month == 2:
-        isLeap = leap(year)
-        if isLeap == True:
+        is_leap = leap(year)
+        if is_leap == True:
             days = 29
         else:
             days = 28
     
-    elif month in days30:
+    elif month in days_30:
         days = 30
     
     else:
@@ -62,6 +62,6 @@ for year in range(1901,2001):
     for month in range(1,13):
         days = daysInMonth(month, year)
         for day in range(1,days+1):
-            isMagic = magicDate(day,month,year)
-            if isMagic == True:
+            is_magic = magicDate(day,month,year)
+            if is_magic == True:
                 print(day, "/", month, "/", year)
