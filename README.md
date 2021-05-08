@@ -27,8 +27,13 @@ python 2 exercises
   - ex066
   - ex067
   - ex068
+  - ex069
 
 04 : functions
 - completed:
   - ex100
   - ex103
+
+05 : lists
+- completed:
+  - ex106
