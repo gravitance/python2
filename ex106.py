@@ -20,8 +20,12 @@ values.
 
 def removeOutliers(original_list, n):
     newlist = sorted(original_list)
-    del newlist[:2]
-    del newlist[-2:]
+    for i in range(n):
+        newlist.pop()
+        # print (newlist)
+    for i in range(n):
+        newlist.pop(0)
+        # print (newlist)
     return newlist
 
 original_list = []
@@ -43,5 +47,5 @@ else:
     else:
 
         newlist = removeOutliers(original_list,2)
-        print(original_list)
-        print(newlist)
+        print(f'original data: {original_list}')
+        print(f'processed data: {newlist}')

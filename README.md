@@ -37,3 +37,9 @@ python 2 exercises
 05 : lists
 - completed:
   - ex106
+  - ex107
+  - ex108
+  - ex109
+  - ex110
+  - ex111
+  - ex112
