@@ -23,14 +23,18 @@ python 2 exercises
   - ex062
   - ex063, ex063a
   - ex064
-  - ex065, ex65a
-  - ex066
+  - ex065, ex065a
+  - ex066, ex066a
   - ex067
   - ex068
   - ex069
+  - ex070
 
 04 : functions
 - completed:
+  - ex087
+  - ex088
+  - ex091
   - ex100
   - ex103
 
@@ -43,3 +47,20 @@ python 2 exercises
   - ex110
   - ex111
   - ex112
+  - ex113, ex113a
+  - ex117
+  - ex122
+  - ex123
+  - ex124
+  - ex125
+  - ex126
+  - ex127
+
+06 : dictionaries
+- completed:
+  - ex128
+  - ex129
+  - ex130
+  - ex132
+  - ex133
+  - ex134

@@ -17,6 +17,7 @@ from the user and display all of the words in the string with the punctuation ma
 removed. You will need to import your solution to this exercise when completing
 Exercise 158. As a result, you should ensure that your main program only runs when
 your file has not been imported into another program.
+
 '''
 
 def to_word(s):
