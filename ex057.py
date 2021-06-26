@@ -32,10 +32,12 @@ def leap(year):
 
 # ------------------
 
-year = int(input("Enter a year: "))
-isLeap = leap(year)
+if __name__ == "__main__":
 
-if isLeap == True:
-    print(year, "is a leap year.")
-else:
-    print(year, "is not a leap year.")
+    year = int(input("Enter a year: "))
+    isLeap = leap(year)
+
+    if isLeap == True:
+        print(year, "is a leap year.")
+    else:
+        print(year, "is not a leap year.")

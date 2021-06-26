@@ -45,8 +45,8 @@ def isSublist(larger, smaller):
 
 def main():
 
-    larger = [1, 2, 3, 4]
-    smaller = [1, 2]
+    larger = [1, 2, 3, 4, 5]
+    smaller = [2, 3]
     print(isSublist(larger, smaller))
 
 if __name__ == "__main__":
