@@ -49,7 +49,9 @@ python 2 exercises
   - ex087
   - ex088
   - ex089
+  - ex090
   - ex091
+  - ex098 (NOT COMPLETE)
   - ex100
   - ex103
 

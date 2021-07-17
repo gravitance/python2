@@ -43,7 +43,7 @@ for word in textlist:
         new = word[i:] + tail + "ay" + p
     
     if word[0].isupper():
-        new = new.lower().replace(new[0], new[0].upper())
+        new = new[0].upper() + new[1:].lower()
     
     newtextlist.append(new)
 

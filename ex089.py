@@ -15,8 +15,9 @@ a string from the user, capitalizes it using your function, and displays the res
 '''
 
 def capitalize(s):
-    punc = [",", ".", "!", "?"]
+    punc = [".", "!", "?"]
     s = s.replace(" i ", " I ")
+    s = s.replace("i'm", "I'm")
 
     if len(s) > 0:
         s = s[0].upper() + s[1:]
@@ -35,7 +36,13 @@ def capitalize(s):
         
         index += 1
     
-    return s
+    new = ""
+    text = s.split()
+    
+    for t in text:
+        new = new + t + " "
+    
+    return new
 
 if __name__ == "__main__":
     s = input("Enter a string: ")
