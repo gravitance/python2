@@ -1,4 +1,6 @@
 # python2
+- solutions to exercises used in teaching python. of course, they are not perfect solutions, just my way of solving the problems.
+
 python 2 exercises
 
 01 : intro
