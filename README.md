@@ -1,5 +1,6 @@
 # python2
-- solutions to exercises used in teaching python. of course, they are not perfect solutions, just my way of solving the problems.
+- solutions to exercises used in teaching python. not meant to be a model solution, just one way of solving them.
+- to my students: if yall find this please bros don't just copy (I Will Know), feel free to ask me for debugging help!
 
 python 2 exercises
 
